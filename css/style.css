@@ -1,0 +1,71 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f1e3;
+    color: #3e2723;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #5d4037;
+}
+
+button {
+    background-color: #795548;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6d4c41;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #8d6e63;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 1rem;
+    }
+}
